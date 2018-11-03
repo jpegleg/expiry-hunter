@@ -9,5 +9,5 @@ Consolidate the output files from the hunters into a single report text file.
 # expiry-brute
 Same as the hunter but skips extention matching and checks all files in current directory for x509 content.
 
-# expiry-brute-er
+# expiry-brute-der
 Same as the hunter-der but skips extention matching and checks all files in current directory for DER content.
