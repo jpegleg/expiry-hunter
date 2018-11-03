@@ -1,0 +1,3 @@
+find . -print -exec openssl x509 -text -noout -in {} \; 2>/dev/null > ~/x509.report.$(hostname).$(pwd | sed 's/\//./g').txt
+
+grep -A1 "Not After" ~/x509.report.$(hostname).$(pwd | sed 's/\//./g').txt
