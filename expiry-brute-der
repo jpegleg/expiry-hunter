@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 find . -print -exec openssl x509 -inform der -text -noout -in {} \; 2>/dev/null > ~/x509.report.$(hostname).$(pwd | sed 's/\//./g').txt
 
