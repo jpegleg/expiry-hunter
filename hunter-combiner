@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 grep -A1 "Not After" ~/x509.report.*.txt > ~/combined.x509.report.$(hostname).$(date +%Y%M%D).txt
